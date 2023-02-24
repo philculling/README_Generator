@@ -1,7 +1,33 @@
 # README_Generator
 Week 11 Challenge Working with ES6 and Node.js
 
-# Module 11 Challenge: Professional README Generator
+Phil's to-do list
+
+Set up something that will render anything at all to terminalREADME.md just so you can see if you can link from your node index.js to this.
+
+Start to write the code that is required, but don't try to finish it, in case anything comes up from this next item which might suggest you need to do this in a different way. Use saved link and past work from this week for reference, just to feel like you're making progress!
+
+This: https://www.w3schools.io/file/markdown-cheatsheet/ could end up being incredibly useful. It talks about syntax for things like Headings, Lists, links, etc.
+
+Research the licence: which one you should use, how to give options when node index is run, but ignore the badge for the moment.
+
+Read the README guide that's in BCS, in the long explanation of what to do for this project. Or the link below if that works.
+
+Research badges, work out how to get it to show; remember that on Friday, both Anthony and Esra sent links about this.
+
+Complete the github rendering which also has to include a link.
+
+Work out how to complete the table of contents that will contain internal links to the corresponding section of the README.
+
+Continue the rendering code.
+
+Read about how to submit a video.
+
+Finish the rendering code.
+
+Do the actual README (this one).
+
+Do the video!
 
 ## Your Task
 
@@ -37,10 +63,6 @@ node index.js
 
 Here are some guidelines to help you get started:
 
-* Create a `.gitignore` file and include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. Be sure to create your `.gitignore` file before installing any npm dependencies.
-
 * Make sure that your repo includes a `package.json` with the required dependencies. You can create one by running `npm init` when you first set up the project, before installing any dependencies.
 
-* Satisfies all of the above acceptance criteria plus the following:
-
-	* Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
+I think I can ignore the above paragraph as it was in the starter code.
