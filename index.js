@@ -67,9 +67,6 @@ inquirer.prompt(
 
 const template =`# ${title}
 # Table of contents
-|Title |Link
-:--- | :---|
-|test|content|
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
@@ -89,8 +86,8 @@ ${description}
 # License
 This application is covered under the ${license}.
 # Questions
-* [Github](#github) ${github}
-* [Email](#email) ${email}
+* [Github](${github})
+* [Email] ${email}
 `;
 
 // function to write README file
