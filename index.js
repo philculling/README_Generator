@@ -3,26 +3,81 @@ const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-// array of questions for user
-// const questions = [
-
-// ];
-
 inquirer.prompt(
     [
         {
             type: 'input',
             message: "Title of project?",
             name: "title",
-        }
+        },
+        {
+            type: 'input',
+            message: "Description of project",
+            name: "description",      
+        },
+        {
+            type: 'input',
+            message: "Table of contents",
+            name: "contents",      
+        },
+        {
+            type: 'input',
+            message: "how do you install your app?",
+            name: "installation",      
+        },
+        {
+            type: 'input',
+            message: "Describe how you use your app",
+            name: "usage",      
+        },
+        {
+            type: 'list',
+            message: "What license did you use?",
+            name: "licence",
+            choices: ['The MIT License', 'The GPL License', 'Apache License', 'GMU license', 'n.a'],      
+        },
+        {
+            type: 'input',
+            message: "List any contributions or credits",
+            name: "contributions",      
+        },
+        {
+            type: 'input',
+            message: "Describe your tests",
+            name: "tests",      
+        },
+        {
+            type: 'input',
+            message: "Any questions?",
+            name: "questions",      
+        },
     ]
 ).then(({
     title 
 }) => {
-//After testing, bring back code temporarily placed at bottom
-//and place below next line
 const template =`# ${title}
+* [Installation](#installation)
+* [Usage](#usage)
+* [contribution](#contribution)
+* [Credits](#credits)
+* [License](#license)
+# Installation
+${installation}
+## Usage
+${usage}
+## Contribution
+${contribution}
+### instructions
+${instructions}
+## Credits
+${credit}
+~~ License
+${license}
 
+# Contact
+* GitHub :${git}
+* Linkedin :${linkedin}
+* E-mail :${email}
 `;
 
 // function to write README file
@@ -46,26 +101,3 @@ function init() {
 
 // function call to initialize program
 init();
-
-// * [Installation](#installation)
-// * [Usage](#usage)
-// * [contribution](#contribution)
-// * [Credits](#credits)
-// * [License](#license)
-// # Installation
-// ${installation}
-// ## Usage
-// ${usage}
-// ## Contribution
-// ${contribution}
-// ### instructions
-// ${instructions}
-// ## Credits
-// ${credit}
-// ~~ License
-// ${license}
-
-// # Contact
-// * GitHub :${git}
-// * Linkedin :${linkedin}
-// * E-mail :${email}

@@ -3,8 +3,6 @@ Week 11 Challenge Working with ES6 and Node.js
 
 Phil's to-do list
 
-Set up something that will render anything at all to terminalREADME.md just so you can see if you can link from your node index.js to this.
-
 Start to write the code that is required, but don't try to finish it, in case anything comes up from this next item which might suggest you need to do this in a different way. Use saved link and past work from this week for reference, just to feel like you're making progress!
 
 This: https://www.w3schools.io/file/markdown-cheatsheet/ could end up being incredibly useful. It talks about syntax for things like Headings, Lists, links, etc.
@@ -26,6 +24,8 @@ Continue the rendering code.
 Read about how to submit a video.
 
 Finish the rendering code.
+
+See if you can work out how to make the correct README update!
 
 Do the actual README (this one).
 
