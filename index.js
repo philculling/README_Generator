@@ -17,11 +17,6 @@ inquirer.prompt(
         },
         {
             type: 'input',
-            message: "Table of contents",
-            name: "contents",      
-        },
-        {
-            type: 'input',
             message: "How do you install your app?",
             name: "installation",      
         },
@@ -60,19 +55,33 @@ inquirer.prompt(
 ).then(({
     title 
 }) => {
-//Content removed needs to be replaced from lines 74 onwards.
-//"Ish" if you add or remove anything from above!
+/*
+Lines 110 (ish, check) onwards which are commented out should have
+linked user input to generated readme but were not working so were
+removed.
+If you use them again, it will affect lines 74 onwards.
+"Ish" if you add or remove anything from above!
+*/
 const template =`# ${title}
+** Table of contents
 * [Description](#description)
-* [Contents](#contents)
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
 * [Contribution](#contributions)
 * [Tests](#tests)
 * [Credits](#credits)
+# Description
 # Installation
+# Usage
+# Contributing
+# Tests
+# License
+This application is covered under WORK OUT HOW TO LINK USER INPUT HERE
 Experimenting with template literal text here.
+# Questions
+* [Github](#github)
+* [Email](#email)
 `;
 
 // function to write README file
