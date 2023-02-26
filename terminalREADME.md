@@ -1,4 +1,5 @@
 # terminalREADME
+![NPM License](https://img.shields.io/badge/license-MIT-red)
 # Table of contents
 * [Description](#description)
 * [Installation](#installation)
@@ -7,17 +8,17 @@
 * [Contribution](#contributions)
 * [Tests](#tests)
 # Description 
-short this time, checking something else!
+test
 # Installation
- Good question
+ test
 # Usage
  test
 # Contributions
- contribute if you want
+ test
 # Tests
- test using node
+ test
 # License
-This application is covered under the The MIT License.
+This application is covered under MIT.
 # Questions
-* [Github](https://www.bbc.co.uk)
+* [Github](test)
 * [Email] test

@@ -29,7 +29,7 @@ inquirer.prompt(
             type: 'list',
             message: "What license did you use?",
             name: "license",
-            choices: ['The MIT License', 'The GPL License', 'Apache License', 'GMU license', 'n/a'],      
+            choices: ['MIT', 'Apache', 'GNU', 'n/a'],      
         },
         {
             type: 'input',
@@ -65,7 +65,10 @@ inquirer.prompt(
 
 }) => {
 
+//const licenseText = ${license.toLowerCase().split(' ').join('')};
+
 const template =`# ${title}
+![NPM License](https://img.shields.io/badge/license-${license}-red)
 # Table of contents
 * [Description](#description)
 * [Installation](#installation)
@@ -84,7 +87,7 @@ ${description}
 # Tests
  ${tests}
 # License
-This application is covered under the ${license}.
+This application is covered under ${license}.
 # Questions
 * [Github](${github})
 * [Email] ${email}

@@ -52,8 +52,6 @@ The last section of a high-quality README file is the license. This lets other d
 
 ## Badges
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
 Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
 
 ## Features
@@ -70,10 +68,6 @@ Go the extra mile and write tests for your application. Then provide examples on
 
 
 Phil's to-do list
-
-Complete the github rendering which also has to include a link.
-
-Research badges, work out how to get it to show; remember that on Friday, both Anthony and Esra sent links about this.
 
 Complete the email rendering which has some quite specific instructions.
 
@@ -93,7 +87,6 @@ Do the video!
 
 * Create a command-line application that accepts user input.
 
-    * When a user chooses a license for their application from a list of options then a badge for that license is added near the top of the README and a notice is added to the section of the README entitled **License** that explains which license the application is covered under
-    * When a user enters their GitHub username then this is added to the section of the README entitled Questions, with a link to their GitHub profile
+    * When a user chooses a license for their application from a list of options then a badge for that license is added near the top of the README
     * When a user enters their email address then this is added to the section of the README entitled Questions, with instructions on how to reach them with additional questions
     
