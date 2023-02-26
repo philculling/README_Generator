@@ -3,18 +3,18 @@ Week 11 Challenge Working with ES6 and Node.js
 
 Phil's to-do list
 
-Add the other bits.
+Check what's going on with credits. Remove if not needed.
 Commit.
-
-Read about tables in the W3schools.io link: how easy would it be to generate a table of contents? Although given you can't generate anything at the moment apart from the title, maybe this isn't a top priority!
-
-Research the licence: which one you should use; ignore the badge for the moment.
 
 Read the README guide that's in BCS, in the long explanation of what to do for this project. Or the link below if that works, just in case this throws up any issues.
 
-Research badges, work out how to get it to show; remember that on Friday, both Anthony and Esra sent links about this.
+Create table if you've decided to go ahead with this.
+
+Research the licence: which one you should use; ignore the badge for the moment.
 
 Complete the github rendering which also has to include a link.
+
+Research badges, work out how to get it to show; remember that on Friday, both Anthony and Esra sent links about this.
 
 Complete the email rendering which has some quite specific instructions.
 

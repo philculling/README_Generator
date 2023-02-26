@@ -29,7 +29,7 @@ inquirer.prompt(
             type: 'list',
             message: "What license did you use?",
             name: "license",
-            choices: ['The MIT License', 'The GPL License', 'Apache License', 'GMU license', 'n.a'],      
+            choices: ['The MIT License', 'The GPL License', 'Apache License', 'GMU license', 'n/a'],      
         },
         {
             type: 'input',
@@ -64,30 +64,30 @@ inquirer.prompt(
     email
 
 }) => {
-/*
-Lines 110 (ish, check) onwards which are commented out should have
-linked user input to generated readme but were not working so were
-removed.
-If you use them again, it will affect lines 74 onwards.
-"Ish" if you add or remove anything from above!
-*/
+
 const template =`# ${title}
 # Table of contents
+|Title |Link
+:--- | :---|
+|test|content|
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
 * [Contribution](#contributions)
 * [Tests](#tests)
-* [Credits](#credits)
-# Description ${description}
-# Installation ${installation}
-# Usage ${usage}
-# Contributing ${contributions}
-# Tests ${tests}
-# License ${license}
-This application is covered under WORK OUT HOW TO LINK USER INPUT HERE
-Experimenting with template literal text here.
+# Description 
+${description}
+# Installation
+ ${installation}
+# Usage
+ ${usage}
+# Contributions
+ ${contributions}
+# Tests
+ ${tests}
+# License
+This application is covered under the ${license}.
 # Questions
 * [Github](#github) ${github}
 * [Email](#email) ${email}
@@ -114,21 +114,3 @@ function init() {
 
 // function call to initialize program
 init();
-
-/*
-${installation}
-## Usage
-${usage}
-## Contribution
-${contributions}
-### instructions
-${instructions}
-## Credits
-${credit}
-~~ License
-${license}
-
-# Contact
-* GitHub :${github}
-* Email :${email}
-*/
