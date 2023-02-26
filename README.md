@@ -9,6 +9,8 @@ Start to write the code that is required, but don't try to finish it, in case an
 
 This: https://www.w3schools.io/file/markdown-cheatsheet/ could end up being incredibly useful. It talks about syntax for things like Headings, Lists, links, etc.
 
+Do the rest of the input questions and code after .then
+
 Research the licence: which one you should use, how to give options when node index is run, but ignore the badge for the moment.
 
 Read the README guide that's in BCS, in the long explanation of what to do for this project. Or the link below if that works.

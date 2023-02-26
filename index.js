@@ -8,7 +8,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
 
 // ];
 
-inquirer.createPromptModule(
+inquirer.prompt(
     [
         {
             type: 'input',
@@ -19,37 +19,26 @@ inquirer.createPromptModule(
 ).then(({
     title 
 }) => {
+//After testing, bring back code temporarily placed at bottom
+//and place below next line
 const template =`# ${title}
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [contribution](#contribution)
-* [Credits](#credits)
-* [License](#License)
-# Installation
-${installation}
-## Usage
-${usage}
-## Contribution
-${contribution}
-### instructions
-${instructions}
-## Credits
-${credit}
-~~ License
-${license}
-
-# Contact
-* GitHub :${git}
-* Linkedin :${linkedin}
-* E-mail :${email}`;
-}
-)
+`;
 
 // function to write README file
-function writeToFile(fileName, data) {
+createNewFile(title, template);
 }
+);
 
+function createNewFile(fileName, data) {
+    
+fs.writeFile(`./${fileName.toLowerCase().split(' ').join('')}.md`, data,(err)=>{
+        if(err){
+            console.log(err)
+        }
+        console.log("README successfully generated");
+    })
+}
 // function to initialize program
 function init() {
 
@@ -57,3 +46,26 @@ function init() {
 
 // function call to initialize program
 init();
+
+// * [Installation](#installation)
+// * [Usage](#usage)
+// * [contribution](#contribution)
+// * [Credits](#credits)
+// * [License](#license)
+// # Installation
+// ${installation}
+// ## Usage
+// ${usage}
+// ## Contribution
+// ${contribution}
+// ### instructions
+// ${instructions}
+// ## Credits
+// ${credit}
+// ~~ License
+// ${license}
+
+// # Contact
+// * GitHub :${git}
+// * Linkedin :${linkedin}
+// * E-mail :${email}
