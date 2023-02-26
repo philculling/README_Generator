@@ -7,7 +7,7 @@ inquirer.prompt(
     [
         {
             type: 'input',
-            message: "Title of project?",
+            message: "Title of project? While practising, write 'terminalREADME'",
             name: "title",
         },
         {
@@ -22,7 +22,7 @@ inquirer.prompt(
         },
         {
             type: 'input',
-            message: "how do you install your app?",
+            message: "How do you install your app?",
             name: "installation",      
         },
         {
@@ -60,6 +60,8 @@ inquirer.prompt(
 ).then(({
     title 
 }) => {
+//Content removed needs to be replaced from lines 74 onwards.
+//"Ish" if you add or remove anything from above!
 const template =`# ${title}
 * [Description](#description)
 * [Contents](#contents)
@@ -70,21 +72,7 @@ const template =`# ${title}
 * [Tests](#tests)
 * [Credits](#credits)
 # Installation
-${installation}
-## Usage
-${usage}
-## Contribution
-${contributions}
-### instructions
-${instructions}
-## Credits
-${credit}
-~~ License
-${license}
-
-# Contact
-* GitHub :${github}
-* Email :${email}
+Experimenting with template literal text here.
 `;
 
 // function to write README file
@@ -108,3 +96,21 @@ function init() {
 
 // function call to initialize program
 init();
+
+/*
+${installation}
+## Usage
+${usage}
+## Contribution
+${contributions}
+### instructions
+${instructions}
+## Credits
+${credit}
+~~ License
+${license}
+
+# Contact
+* GitHub :${github}
+* Email :${email}
+*/

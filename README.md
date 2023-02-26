@@ -3,13 +3,16 @@ Week 11 Challenge Working with ES6 and Node.js
 
 Phil's to-do list
 
-Set up something that will render anything at all to terminalREADME.md just so you can see if you can link from your node index.js to this.
+Read the instructions again, below, particularly about contents.
+Read about tables: how fully depends on the instructions. If we're definitely required to produce a table, read carefully, otherwise maybe don't bother.
+Think more carefully about exactly what is required for the contents section. You probably need to remove it from the user prompt section and just make sure it's in the template literal, which you can adapt later to create links.
+Try to obtain clarity of thought, don't worry if you don't do any more coding before lunch. Most of it is done, it's clarity of thought you need otherwise you will go deep into a rabbit hole of confusion and create the need for lots of undoing.
 
-Start to write the code that is required, but don't try to finish it, in case anything comes up from this next item which might suggest you need to do this in a different way. Use saved link and past work from this week for reference, just to feel like you're making progress!
+Look at exercises from earlier in the week about rendering to html and work out how you can render successfully to a mardown file. You should probably try to resolve this before moving on.
 
-This: https://www.w3schools.io/file/markdown-cheatsheet/ could end up being incredibly useful. It talks about syntax for things like Headings, Lists, links, etc.
+If necessary ask BCS.
 
-Do the rest of the input questions and code after .then
+If stuck, continue and try to address the rendering later?
 
 Research the licence: which one you should use, how to give options when node index is run, but ignore the badge for the moment.
 
@@ -19,13 +22,15 @@ Research badges, work out how to get it to show; remember that on Friday, both A
 
 Complete the github rendering which also has to include a link.
 
-Work out how to complete the table of contents that will contain internal links to the corresponding section of the README.
+Work out how to complete the table of contents that will contain internal links to the corresponding section of the README. One way might be to REMOVE it from the prompt questions in node. js, but keep it in what is to be rendered to the markdown file, and then set up links from within the markdown file.
 
 Continue the rendering code.
 
 Read about how to submit a video.
 
 Finish the rendering code.
+
+See if you can work out how to make the correct README update!
 
 Do the actual README (this one).
 
