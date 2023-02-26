@@ -18,7 +18,8 @@ test
 # Tests
  test
 # License
-This application is covered under MIT.
+This application is covered under the MIT license.
 # Questions
 * [Github](test)
-* [Email] test
+* Click here to contact the creator for further details.
+[Email](mailto:philculling@hotmail.com)

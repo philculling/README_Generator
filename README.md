@@ -87,6 +87,5 @@ Do the video!
 
 * Create a command-line application that accepts user input.
 
-    * When a user chooses a license for their application from a list of options then a badge for that license is added near the top of the README
     * When a user enters their email address then this is added to the section of the README entitled Questions, with instructions on how to reach them with additional questions
     

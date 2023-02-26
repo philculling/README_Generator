@@ -65,8 +65,6 @@ inquirer.prompt(
 
 }) => {
 
-//const licenseText = ${license.toLowerCase().split(' ').join('')};
-
 const template =`# ${title}
 ![NPM License](https://img.shields.io/badge/license-${license}-red)
 # Table of contents
@@ -87,10 +85,11 @@ ${description}
 # Tests
  ${tests}
 # License
-This application is covered under ${license}.
+This application is covered under the ${license} license.
 # Questions
 * [Github](${github})
-* [Email] ${email}
+* Click here to contact the creator for further details.
+[Email](mailto:${email})
 `;
 
 // function to write README file
