@@ -28,7 +28,7 @@ inquirer.prompt(
         {
             type: 'list',
             message: "What license did you use?",
-            name: "licence",
+            name: "license",
             choices: ['The MIT License', 'The GPL License', 'Apache License', 'GMU license', 'n.a'],      
         },
         {
@@ -53,7 +53,16 @@ inquirer.prompt(
         },
     ]
 ).then(({
-    title 
+    title,
+    description,
+    installation,
+    usage,
+    license,
+    contributions,
+    tests,
+    github,
+    email
+
 }) => {
 /*
 Lines 110 (ish, check) onwards which are commented out should have
@@ -63,7 +72,7 @@ If you use them again, it will affect lines 74 onwards.
 "Ish" if you add or remove anything from above!
 */
 const template =`# ${title}
-** Table of contents
+# Table of contents
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
@@ -71,17 +80,17 @@ const template =`# ${title}
 * [Contribution](#contributions)
 * [Tests](#tests)
 * [Credits](#credits)
-# Description
-# Installation
-# Usage
-# Contributing
-# Tests
-# License
+# Description ${description}
+# Installation ${installation}
+# Usage ${usage}
+# Contributing ${contributions}
+# Tests ${tests}
+# License ${license}
 This application is covered under WORK OUT HOW TO LINK USER INPUT HERE
 Experimenting with template literal text here.
 # Questions
-* [Github](#github)
-* [Email](#email)
+* [Github](#github) ${github}
+* [Email](#email) ${email}
 `;
 
 // function to write README file

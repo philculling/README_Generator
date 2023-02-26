@@ -1,5 +1,5 @@
 # terminalREADME
-** Table of contents
+# Table of contents
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
@@ -7,7 +7,7 @@
 * [Contribution](#contributions)
 * [Tests](#tests)
 * [Credits](#credits)
-# Description
+# Description test
 # Installation
 # Usage
 # Contributing
@@ -16,5 +16,5 @@
 This application is covered under WORK OUT HOW TO LINK USER INPUT HERE
 Experimenting with template literal text here.
 # Questions
-* [Github](#gitub)
+* [Github](#github)
 * [Email](#email)

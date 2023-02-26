@@ -3,11 +3,8 @@ Week 11 Challenge Working with ES6 and Node.js
 
 Phil's to-do list
 
-Look at exercises from earlier in the week about rendering to html and work out how you can render successfully to a markdown file. Remember you have already partly succeeded, what you need to resolve is quite specific. However, you should probably try to resolve this before moving on.
-
-If necessary ask BCS.
-
-If stuck, continue and try to address the rendering later?
+Add the other bits.
+Commit.
 
 Read about tables in the W3schools.io link: how easy would it be to generate a table of contents? Although given you can't generate anything at the moment apart from the title, maybe this isn't a top priority!
 
