@@ -3,11 +3,13 @@ Week 11 Challenge Working with ES6 and Node.js
 
 Phil's to-do list
 
-Start to write the code that is required, but don't try to finish it, in case anything comes up from this next item which might suggest you need to do this in a different way. Use saved link and past work from this week for reference, just to feel like you're making progress!
+Change the contents of the questions section to reflect what it should be: see below. Remove this note then commit.
 
 This: https://www.w3schools.io/file/markdown-cheatsheet/ could end up being incredibly useful. It talks about syntax for things like Headings, Lists, links, etc.
 
-Do the rest of the input questions and code after .then
+Debug as far as you have the capability! Refer to exercises from earlier in the week if it's not clear.
+
+Check the rest of the code after .then
 
 Research the licence: which one you should use, how to give options when node index is run, but ignore the badge for the moment.
 

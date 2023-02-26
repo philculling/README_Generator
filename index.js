@@ -38,35 +38,43 @@ inquirer.prompt(
         },
         {
             type: 'input',
-            message: "List any contributions or credits",
+            message: "Contribution guidelines",
             name: "contributions",      
         },
         {
             type: 'input',
-            message: "Describe your tests",
+            message: "Test instructions",
             name: "tests",      
         },
         {
             type: 'input',
-            message: "Any questions?",
-            name: "questions",      
+            message: "Github username",
+            name: "github",      
+        },
+        {
+            type: 'input',
+            message: "Email address",
+            name: "email",      
         },
     ]
 ).then(({
     title 
 }) => {
 const template =`# ${title}
+* [Description](#description)
+* [Contents](#contents)
 * [Installation](#installation)
 * [Usage](#usage)
-* [contribution](#contribution)
-* [Credits](#credits)
 * [License](#license)
+* [Contribution](#contributions)
+* [Tests](#tests)
+* [Credits](#credits)
 # Installation
 ${installation}
 ## Usage
 ${usage}
 ## Contribution
-${contribution}
+${contributions}
 ### instructions
 ${instructions}
 ## Credits
@@ -75,9 +83,8 @@ ${credit}
 ${license}
 
 # Contact
-* GitHub :${git}
-* Linkedin :${linkedin}
-* E-mail :${email}
+* GitHub :${github}
+* Email :${email}
 `;
 
 // function to write README file
