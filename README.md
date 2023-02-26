@@ -69,17 +69,17 @@ Go the extra mile and write tests for your application. Then provide examples on
 
 Phil's to-do list
 
-Complete the email rendering which has some quite specific instructions.
-
-Find out if we need a screenshot for the README.
-
 Research contributing (read the contributor's covenant) and flesh out this section a bit.
 
 Read about how to submit a video.
 
+Install screencastify
+
 Do the actual README (this one), following the above template.
 
 Do the video!
+
+Insert link to the video into the real README.
 
 ## Your Task
 
