@@ -1,6 +1,6 @@
 # terminalREADME
-![NPM License](https://img.shields.io/badge/license-MIT-red)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)]
+![NPM License](https://img.shields.io/badge/license-n/a-red)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 # Table of contents
 * [Description](#description)
 * [Installation](#installation)
@@ -20,7 +20,7 @@ Contributions are guided by the [Contributor Covenant](https://www.contributor-c
 # Tests
  test
 # License
-This application is covered under the MIT license.
+This application is covered under the n/a license.
 # Questions
 * [Github](test)
 * Click here to contact the creator for further details.

@@ -68,7 +68,7 @@ inquirer.prompt(
 
 const template =`# ${title}
 ![NPM License](https://img.shields.io/badge/license-${license}-red)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)]
 # Table of contents
 * [Description](#description)
 * [Installation](#installation)
