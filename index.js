@@ -32,9 +32,10 @@ inquirer.prompt(
             choices: ['MIT', 'Apache', 'GNU', 'n/a'],      
         },
         {
-            type: 'input',
-            message: "Contribution guidelines",
-            name: "contributions",      
+            type: 'list',
+            message: "Contribution guidelines are set to the Contributor Covenant. Click 'Ok' to continue",
+            name: "contributions",
+            choices: ['Ok'],      
         },
         {
             type: 'input',
@@ -67,6 +68,7 @@ inquirer.prompt(
 
 const template =`# ${title}
 ![NPM License](https://img.shields.io/badge/license-${license}-red)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 # Table of contents
 * [Description](#description)
 * [Installation](#installation)
@@ -81,6 +83,7 @@ ${description}
 # Usage
  ${usage}
 # Contributions
+Contributions are guided by the [Contributor Covenant](https://www.contributor-covenant.org/). By selecting 'Ok' you have agreed to abide by the Contributor Covenant Code of Conduct. To report any misuse, please email [Email](mailto:${email}).
  ${contributions}
 # Tests
  ${tests}

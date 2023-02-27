@@ -69,8 +69,6 @@ Go the extra mile and write tests for your application. Then provide examples on
 
 Phil's to-do list
 
-Research contributing (read the contributor's covenant) and flesh out this section a bit.
-
 Read about how to submit a video.
 
 Install screencastify
